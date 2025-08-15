@@ -1,0 +1,12 @@
+import { SomaTagGroup, Tag } from "@/registry/default/ui/tag-group"
+
+export default function TagGroupReusable() {
+  return (
+    <SomaTagGroup label="Ice cream flavor" selectionMode="single">
+      <Tag>Chocolate</Tag>
+      <Tag>Mint</Tag>
+      <Tag>Strawberry</Tag>
+      <Tag>Vanilla</Tag>
+    </SomaTagGroup>
+  )
+}
