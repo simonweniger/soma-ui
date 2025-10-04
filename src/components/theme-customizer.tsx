@@ -70,10 +70,10 @@ export function ThemeCustomizer({
       <Button
         variant="default"
         className={cn(
-          shrink && "h-9 min-w-9 p-0 sm:py-2 lg:h-9 lg:w-auto lg:px-4"
+          shrink && "min-w-9 lg:w-auto lg:px-4"
         )}
       >
-        <Settings2 className={cn("mr-2", shrink && "mr-0 lg:mr-2")} />
+        <Settings2 className={cn("mr-2 size-4", shrink && "mr-0 lg:mr-2")} />
         <p className={cn(shrink && "hidden lg:inline-block")}>Customize</p>
       </Button>
       <DialogOverlay className="bg-transparent backdrop-blur-none">

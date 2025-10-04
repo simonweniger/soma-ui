@@ -13,18 +13,18 @@ export default function Page() {
     <div className="container relative">
       <section
         className={cn(
-          "mx-auto flex max-w-[980px] flex-col items-center gap-2 py-8 md:py-12 md:pb-8 lg:py-24 lg:pb-20"
+          "flex max-w-[750px] flex-col py-8 md:py-12 md:pb-8 lg:py-24 lg:pb-20"
         )}
       >
-        <Announcement />
+        {/**<Announcement />*/}
         <h1
           className={cn(
-            "my-4 text-center text-6xl font-bold leading-tight tracking-tighter text-primary md:text-6xl lg:leading-[1.1]"
+            "my-4 text-5xl font-bold leading-tight tracking-tighter text-primary md:text-6xl"
           )}
         >
-          SomaUI
+          SOMA UI
         </h1>
-        <p className="max-w-[750px] text-balance text-center text-lg text-muted-foreground sm:text-xl">
+        <p className=" text-balance text-lg text-muted-foreground sm:text-xl">
           <Link
             className="text-md p-0 font-medium text-black hover:text-gray-800 dark:text-white hover:dark:text-gray-300"
             target="_blank"
@@ -46,18 +46,18 @@ export default function Page() {
         </p>
         <div
           className={cn(
-            "flex w-full items-center justify-center space-x-4 py-4 md:pb-10"
+            "flex w-full space-x-4 py-4 md:pb-10"
           )}
         >
           {" "}
-          <Link variant="outline" href="/docs" className="h-9">
+          <Link variant="outline" href="/docs" className="h-8">
             Get Started
           </Link>
           <ThemeCustomizer />
         </div>
       </section>
       <h2></h2>
-      <section className=" grid items-start justify-center gap-6 rounded-lg p-8 md:grid-cols-2 xl:grid-cols-3">
+      <section className=" grid items-start justify-center gap-6 rounded-lg  md:grid-cols-2 xl:grid-cols-3">
         <div className="col-span-2 grid items-start gap-6 md:col-span-1">
           <CardsPaymentMethod />
         </div>
