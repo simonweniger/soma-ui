@@ -1,0 +1,60 @@
+<Title content="Resizable" />
+<Description content="A group of panels with accessible, resizable layouts." />
+<ComponentLinks
+	links={[
+		{
+			label: "Docs",
+			href: "https://react-resizable-panels.vercel.app/",
+		},
+	]}
+/>
+
+<ComponentPreview name="resizable-demo" />
+
+## Installation
+
+<ComponentInstallation>
+<div>
+```bash title="Terminal"
+npx shadcn@latest add @9ui/resizable
+```
+</div>
+
+<Steps>
+
+<Step>Copy and paste the following code into your project.</Step>
+
+<ComponentSource name="resizable" />
+
+</Steps>
+</ComponentInstallation>
+
+## Usage
+
+```tsx title="Imports"
+import {
+	ResizableHandle,
+	ResizablePanel,
+	ResizablePanelGroup,
+} from "@/components/ui/resizable"
+```
+
+```tsx title="Anatomy"
+<ResizablePanelGroup>
+	<ResizablePanel />
+	<ResizableHandle />
+	<ResizablePanel />
+</ResizablePanelGroup>
+```
+
+## Examples
+
+### Vertical
+
+<ComponentPreview name="resizable-vertical" />
+
+---
+
+### With handle
+
+<ComponentPreview name="resizable-with-handle" />

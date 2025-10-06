@@ -1,8 +1,0 @@
-dist
-node_modules
-.next
-build
-.contentlayer
-**/fixtures
-src/__registry__/index.tsx
-

@@ -1,0 +1,62 @@
+<Title content="Avatar" />
+<Description content="Displays an avatar with a fallback." />
+
+<ComponentLinks
+	links={[
+		{
+			label: "Docs",
+			href: "https://base-ui.com/react/components/avatar",
+		},
+	]}
+/>
+
+<ComponentPreview name="avatar-demo" />
+
+## Installation
+
+<ComponentInstallation>
+<div>
+```bash title="Terminal"
+npx shadcn@latest add @9ui/avatar
+```
+</div>
+
+<Steps>
+
+<Step>Copy and paste the following code into your project.</Step>
+
+<ComponentSource name="avatar" />
+
+</Steps>
+</ComponentInstallation>
+
+## Usage
+
+```tsx title="Imports"
+import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar"
+```
+
+```tsx title="Anatomy"
+<Avatar>
+	<AvatarImage />
+	<AvatarFallback />
+</Avatar>
+```
+
+## Examples
+
+### Sizes
+
+<ComponentPreview name="avatar-sizes" />
+
+---
+
+### With Fallback
+
+<ComponentPreview name="avatar-fallback" />
+
+---
+
+### Avatar Group
+
+<ComponentPreview name="avatar-group" />
