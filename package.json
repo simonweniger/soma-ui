@@ -12,15 +12,15 @@
 		"clean": "turbo clean && rm -rf node_modules",
 		"type-check": "turbo type-check"
 	},
-	"packageManager": "pnpm@10.10.0",
+	"packageManager": "pnpm@10.18.1",
 	"engines": {
 		"node": ">=20"
 	},
 	"devDependencies": {
-		"@commitlint/cli": "^19.6.1",
-		"@commitlint/config-conventional": "^19.6.0",
+		"@commitlint/cli": "^19.8.1",
+		"@commitlint/config-conventional": "^19.8.1",
 		"git-cz": "^4.9.0",
-		"prettier": "^3.2.5",
+		"prettier": "^3.6.2",
 		"turbo": "2.5.3"
 	},
 	"config": {
